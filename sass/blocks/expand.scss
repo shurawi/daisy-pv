@@ -1,0 +1,31 @@
+.expand__wrap {
+  height: 576px;
+  padding: 90px 160px;
+  background: url("../img/expand__bg.jpg") no-repeat;
+}
+
+.expand__container {
+  padding: 120px 0 100px;
+  text-align: center;
+  border: 8px solid rgba(255, 255, 255, 0.5);
+}
+
+.expand__head {
+  font-size: 50px;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-family: "PFEncoreSansPro-Bold", "Arial", sans-serif;
+  color: #ffffff;
+}
+
+.expand__span {
+  color: #fc635e;
+}
+
+.expand__btn {
+  margin-top: 43px;
+}
+
+.expand__ref {
+  margin-top: 55px;
+}

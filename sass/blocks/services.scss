@@ -1,0 +1,97 @@
+.services__wrap {
+  padding: 64px 0 14px 0;
+}
+
+.services__head {
+  font-size: 28px;
+  line-height: 28px;
+  color: #868686;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "PFEncoreSansPro-Medium", "Arial", sans-serif;
+}
+
+.services__span {
+  color: #fc635e;
+}
+
+.services__paragraph {
+  margin: 25px 370px 0;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #adadad;
+}
+
+.services__list {
+  margin: 212px 160px 0;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.services__item {
+  position: relative;
+  width: 210px;
+  text-align: center;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -130px;
+    left: 57px;
+    width: 101px;
+    height: 116px;
+  }
+}
+
+.services__item--clients {
+  &::before {
+    background: url("../img/icon__clients.svg") no-repeat, url("../img/hex__small.svg") no-repeat, url("../img/hex__big.svg") no-repeat;
+    background-size: 34px 39px, 91px 104px, 101px 116px;
+    background-position: center;
+  }
+}
+
+.services__item--brand {
+  &::before {
+    background: url("../img/icon__brand.svg") no-repeat, url("../img/hex__small--white.svg") no-repeat, url("../img/hex__big.svg") no-repeat;
+    background-size: 41px 38px, 91px 104px, 101px 116px;
+    background-position: center;
+  }
+}
+
+.services__item--mark {
+  &::before {
+    background: url("../img/icon__mark.svg") no-repeat, url("../img/hex__small.svg") no-repeat, url("../img/hex__big.svg") no-repeat;
+    background-size: 37px 37px, 91px 104px, 101px 116px;
+    background-position: center;
+  }
+}
+
+.services__item--adv {
+  &::before {
+    background: url("../img/icon__adv.svg") no-repeat, url("../img/hex__small.svg") no-repeat, url("../img/hex__big.svg") no-repeat;
+    background-size: 37px 38px, 91px 104px, 101px 116px;
+    background-position: center;
+  }
+}
+
+.services__title {
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #868686;
+}
+
+.services__text {
+  margin-top: 32px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #adadad;
+}
+
+.services__ref {
+  margin-top: 50px;
+  text-align: center;
+}
